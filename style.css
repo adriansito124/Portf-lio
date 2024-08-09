@@ -201,16 +201,18 @@ section {
 p {
     font-size: 1.05rem;
     text-align: justify;
+    color: white;
 }
 
 .titulo {
     font-size: 2.1rem;
+    color: white;
 }
 
 .photo {
     width: 28%;
     height: 100%;
-    border: 5px solid #a8a8a8;
+    border: 5px solid white;
     border-radius: 5%;
 }
 
@@ -218,4 +220,91 @@ p {
     display: flex;
     width: 100%;
     justify-content: space-around;
+}
+
+.bloco2 {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+
+    background-color: #202020;
+
+    width: 100%;
+    max-width: 1000px;
+
+    border: 6px solid #363636;
+    border-radius: 5px;
+
+    gap: 50px;
+}
+
+.coluna {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+}
+
+.photo2 {
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.photo3 {
+    width: 28%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    border-radius: 5%;
+    opacity: 90%;
+}
+
+.img2 {
+    height: 100%;
+    width: 100%;
+
+    opacity: 85%;
+
+    object-fit: cover;
+
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.row2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 25px;
+}
+
+.vida2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.titulo2 {
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+}
+
+.img2:hover{
+    scale: 1.03;
+    opacity: 100%;
+}
+
+.photo3:hover{
+    scale: 1.02;
+    opacity: 100%;
 }

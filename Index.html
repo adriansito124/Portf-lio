@@ -11,9 +11,10 @@
 <body>
 
     <div class="modal">
-        <a class="modalLink" href=""><img src="./Imagens/github.png"> Github</a>
-        <a class="modalLink" href=""><img src="./Imagens/youtube.png"> YouTube</a>
-        <a class="modalLink" href=""><img src="./Imagens/whatsapp.png"> WhatsApp</a>
+        <a class="modalLink" href="https://github.com/adriansito124"><img src="./Imagens/github.png"> Github</a>
+        <a class="modalLink" href="https://www.youtube.com/@adriandepatins5463"><img src="./Imagens/youtube.png">
+            YouTube</a>
+        <a class="modalLink" href="https://wa.me/5541984938117"><img src="./Imagens/whatsapp.png"> WhatsApp</a>
     </div>
 
     <header>
@@ -21,8 +22,8 @@
             <img src="./Imagens/menu.png" class="menu">
             <div class="box">
                 <a href="#profile" class="cresce">Profile</a>
-                <a href="" class="cresce">Projects</a>
-                <a href="" class="cresce">Skills</a>
+                <a href="#projects" class="cresce">Projects</a>
+                <a href="#skills" class="cresce">Skills</a>
             </div>
         </div>
 
@@ -31,6 +32,7 @@
     <main>
 
         <section>
+            <h1 class="title">PORTFÓLIO</h1>
             <div class="tv">
                 <div class="screen">
                     <img class="cd" id="disco" src="./Imagens/Ibere.jpeg">
@@ -55,7 +57,7 @@
                         <p> Meu sonho é desenvolver meu próprio jogo. 😁</p>
                     </div>
                 </div>
-            
+
                 <div class="ybet">
                     <img class="photo" src="./Imagens/titus.jpeg">
                     <img class="photo" src="./Imagens/Ibere.jpeg">
@@ -64,24 +66,65 @@
             </div>
         </section>
 
-
-        <!-- 
-        <div class="longe">
+        <section id="projects">
             <h1 class="title">PROJECTS</h1>
             <div class="bloco">
-                <div class="ybet">
-                    <div class="coluna">
-
+                <div class="vida2">
+                        <h1 class="titulo">Gênio Quiz Brawl Stars</h1>
+                        <br>
+                        <p>Um jogo realizado com HTML, JavaScript e CSS, inspirado nos jogos de Gênio Quiz de André
+                            Birnfeld, com tema central Brawl Stars, um jogo famoso da Supercell.</p>
+                        <br>
+                        <p>O jogo ainda não está completo, mas já está bem desenvolvido, com 43 questões prontas de um total de 50.</p>
                     </div>
+                <div class="row2">
+                    <img class="img2" id="brau" src="./Imagens/genioquiz.png" onclick="next()">
+                </div>
 
-                    <div class="coluna">
-
+                <div class="row2">
+                    <div class="vida2">
+                        <h1 class="titulo">Regador de plantas automático</h1>
+                        <br>
+                        <p>Um projeto de IoT realizado com HTML, JavaScript, CSS e Python, que rega as plantas quando
+                            necessário e fornece dados sobre elas.</p>
+                            <br>
+                        <p>Foram utilizados materiais para a estrutura do projeto, como vasos e mangueiras, além de sensores e motores para a parte funcional, incluindo uma bomba de água e um sensor de umidade do solo. O sistema funciona com base na umidade do solo: se o nível de umidade estiver abaixo da média, o sistema envia água para a planta. Este projeto foi desenvolvido em equipe, com Juliana e Amilton.</p>
                     </div>
+                    <img class="img2" id="plant" onclick="next2()" src="./Imagens/planta.png">
+                    
                 </div>
             </div>
-        </div> -->
+        </section>
+
+        <section id="skills">
+            <h1 class="title">SKILLS</h1>
+            <div class="bloco">
+                <div class="ybet">
+                    <img class="photo3" src="./Imagens/python.png">
+                    <img class="photo3" src="./Imagens/C.png">
+                    <img class="photo3" src="./Imagens/HTML5.png">
+                </div>
+
+                <div class="ybet">
+                    <img class="photo3" src="./Imagens/CSS.png">
+                    <img class="photo3" src="./Imagens/MicroPython.jpg">
+                    <img class="photo3" src="./Imagens/figma.png">
+                </div>
+            </div>
+        </section>
+
+        <h1 class="title">FIM</h1>
     </main>
     <script src="./script.js"></script>
+    <script>
+        function next() {
+            window.location.href = '/GenioQuizBrau/inicio.html';
+        }
+
+        function next2() {
+            window.location.href = '/Regador-de-planta-/! Planta/home.html';
+        }
+    </script>
     <footer>
 
     </footer>
